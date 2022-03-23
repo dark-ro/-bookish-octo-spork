@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% load static %}
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="{% static '/store/style.css' %}"/>
+    <title>Document</title>
+</head>
+<body>
+    <nav class="nav">
+        <div class="contact">
+            <a href="#contact">Contactez nous maintenant</a>
+        </div>
+        
+        <div class="validation" id="liens">
+            <p>{{message}}<br>{{message2}}</p>
+        </div>
+        <div class="titre">
+            <p class="h1">GOBATECH</p>
+        </div>
+        <img src="{% static '/store/img/workspace1_122059.png'%}" width="200" height="150">
+        <div class="annonce">
+            <p>Vous avez besoin d'un site web ? <br> Vous voulez un nom de domaine, héberger un site  ? <br>Nous sommes là pour vous !<br> Contactez nous  </p>
+        </div>
+    </nav>
+    <img class="img" src="{% static '/store/img/iconfinder-send-4341325_120524.png' %}" width="80" height="50">
+
+    <div>
+    <form class="form" method="post" action="">
+        {% csrf_token%}
+       <div>
+        {{form.email}}
+       </div> 
+       
+        <div>
+            {{form.commentaire}}
+        </div>
+        
+        <button class="button">Envoyer votre message</button>
+    </form>
+    </div>
+
+</body>
+</html>

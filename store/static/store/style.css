@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+}
+.titre{
+    color: darksalmon;
+    margin-top: -80px;
+}
+.nav{
+    background-color: darkslategray;
+    text-align: center;
+    bottom: 600px;
+    padding-top: 90px;
+    margin-bottom: 0px;
+}
+.h1{
+    font-size: 60px;
+    font-family: 'Monoid';
+    padding-bottom: 30px;
+}
+.annonce{
+    text-align: left;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-bottom: 100px;
+    padding-top: 50px;
+    line-height: 40px;
+    padding-left: 30px;
+    font-size: 25px;
+}
+.form{
+    text-align: center;
+}
+.form-input{
+    text-align: start;
+    margin: 50px;
+    border-color: darkslategray;
+    border-radius: 4px;
+    height: 30px;
+    width: 250px;
+}
+.form-input2{
+    margin-bottom: 20px;
+    border-color: darkslategray;
+    border-radius: 4px;
+    
+}
+.img{
+    margin-top: 50px;
+    margin-left: 580px;
+
+}
+.button{
+    padding: 20px;
+    margin: 30px;
+    background-color: white;
+    color: darkslategrey;
+    border-radius: 5px;
+    font-size: larger;
+    font-weight: bold;
+
+}
+.button:hover{
+    background-color:darkslategrey ;
+    color: white;
+    border-radius: 15px;
+}
+.validation{
+    color: white;
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 80px;
+    padding-bottom: 20px;
+    position: relative;
+    bottom: 110px;
+    right: 150px;
+
+}
+.contact a{
+    background-color: darksalmon;
+    color: darkslategrey;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-left: 900px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
